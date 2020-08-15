@@ -20,7 +20,7 @@
     {{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 </head>
-<body>
+<body class="home">
 {{ if not .Site.IsServer }}
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ .Site.Params.googleTagManagerId }}"
@@ -32,7 +32,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <h1>{{ .Site.Title }}</h1>
 </header>
 <main>
-
+{{ range .Pages }}
+    <article class="blog-card">
+        <a href="{{ .Permalink }}" class="page-link">
+            <img src="{{ printf "%slogo.png" .Permalink }}" alt="{{ .Title }}" class="page-logo">
+        </a>
+    </article>
+{{ end }}
 </main>
 <footer>
     <p>&copy; VEV {{ now.Year }}</p>
