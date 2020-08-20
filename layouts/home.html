@@ -47,7 +47,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 {{ range .Pages }}
     <article class="blog-card">
         <a href="{{ .Permalink }}" class="page-link">
-            <img src="{{ printf "%slogo.png" .Permalink }}" alt="{{ .Title }}" class="page-logo">
+            {{ $logoFile := printf "%slogo.png" .RelPermalink }}
+            {{ if fileExists $logoFile }}
+            <img src="{{ $logoFile }}" alt="{{ .Title }}" class="page-logo">
+            {{ else }}
+            <span class="page-title">{{ .Title }}</span>
+            {{ end }}
         </a>
     </article>
 {{ end }}
