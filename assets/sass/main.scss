@@ -225,16 +225,23 @@ body {
           .page-logo {
             width: 100%;
           }
+        }
 
-          .page-title {
-            color: whitesmoke;
-            font-weight: bold;
-            font-size: 2rem;
-            width: 100%;
-            text-align: center;
-            display: block;
-            text-transform: uppercase;
+        &.wo-logo {
+          width: 100%;
 
+          .page-link {
+            max-width: none;
+
+            .page-title {
+              color: whitesmoke;
+              font-weight: bold;
+              font-size: 2rem;
+              width: 100%;
+              text-align: center;
+              display: block;
+              text-transform: uppercase;
+            }
           }
         }
       }

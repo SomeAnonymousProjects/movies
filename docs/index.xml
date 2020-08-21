@@ -11,18 +11,9 @@
     
     
     <item>
-      <title>Американский пирог</title>
-      <link>https://movies.vev.su/2020-08-09-american-pie/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://movies.vev.su/2020-08-09-american-pie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Кино c паркуром</title>
       <link>https://movies.vev.su/2020-08-20-parkour-movies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://movies.vev.su/2020-08-20-parkour-movies/</guid>
       <description></description>
@@ -31,16 +22,25 @@
     <item>
       <title>Кино про танцы</title>
       <link>https://movies.vev.su/2020-08-20-dance-movies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://movies.vev.su/2020-08-20-dance-movies/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>13-й район</title>
+      <link>https://movies.vev.su/2020-08-19-banlieue-13/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://movies.vev.su/2020-08-19-banlieue-13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ниндзя-черепашки</title>
       <link>https://movies.vev.su/2020-08-19-ninja-turtles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://movies.vev.su/2020-08-19-ninja-turtles/</guid>
       <description></description>
@@ -49,9 +49,18 @@
     <item>
       <title>Святые из трущоб</title>
       <link>https://movies.vev.su/2020-08-15-boondock-saints/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://movies.vev.su/2020-08-15-boondock-saints/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Американский пирог</title>
+      <link>https://movies.vev.su/2020-08-09-american-pie/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://movies.vev.su/2020-08-09-american-pie/</guid>
       <description></description>
     </item>
     
